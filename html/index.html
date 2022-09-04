@@ -10,86 +10,79 @@
     <title>Maratona de Programação | Facens</title>
 </head>
 <body>
-    <header>
-        <img id="LogoFacens" src="/img/LogoFacens.jpg" alt="Logo Facens"> 
-        <h1>Maratona de <br> Programação | Facens</h1>
-        <nav>
-            <a class="navegacao" href="#">Programação</a> <br>
-            <a class="navegacao" href="#">Eventos anteriores</a>
-        </nav>
-    </header>
-    <aside>
-        <hr>
-        <h2>Sumário</h2>
-        <hr>
-        <ul>
-            <li>O que é?</li>
-            <li>Sede e contato</li>
-        </ul>
-    </aside>
-    <session>
+        <header id="menuFixado">
+            <img id="LogoFacens" src="/img/LogoFacens.jpg" alt="Logo Facens"> 
+            <h1>Maratona de <br> Programação | Facens</h1>
+            <nav>
+                <a class="navegacao" href="#">Programação</a> <br>
+                <a class="navegacao" href="#">Eventos anteriores</a>
+            </nav>
+        </header>
+    <session id="session1">
         <h1 class="boxApresentacao">O que é?</h1>
-        <p><strong>1. Prova</strong><br>
-            A prova será composta por 10 problemas descritos em português, que englobarão conceitos de Lógica Computacional, Algoritmos e Programação e Estruturas de Dados, podendo ser estendidos para outras áreas da computação.
-            
-            Cada problema exigirá a implementação de um programa como resposta em uma das linguagens de programação: C, C++ ou Java.
-            
-            Como se trata de um torneio de criação e implementação de algoritmos, isto significa que não existe a necessidade de preocupar-se com interfaces com o usuário, reusabilidade do código, etc.
-            
-            O tempo total para implementação dos algoritmos é de 4 horas.
-        </p>
-        <p><strong>2. Entrada e saída de dados</strong><br>
-            Durante os testes que a comissão avaliadora realizará, será considerada como entrada padrão o teclado. A saída padrão será o vídeo, ou seja, as soluções deverão ser exibidas na tela.
-        </p>
-        <p><strong>3. Sistema de avaliação</strong><br>
-            Ao julgar que finalizou um programa que resolve um determinado problema, a equipe pode submetê-lo à comissão avaliadora, que compilará e executará uma bateria de testes,desconhecido das equipes. Um problema será considerado resolvido se, para todos os casos de testes, ele devolva o resultado esperado.
-            
-            Para cada submissão o time recebe uma resposta, que pode ser satisfatória (o problema está resolvido pelo time) ou insatisfatória, indicando que algum erro ocorreu durante os testes. Alguns exemplo de respostas insatisfatórias são: resposta errada, tempo de execução excedido, erro de execução, erro de compilação, etc. A cada submissão de programa, com resposta incorreta, a equipe será penalizada em 20 minutos, o qual será adicionado ao tempo total de resolução.
-            
-            O time vencedor é aquele que resolver a maior quantidade de problemas dentro das 4 horas de competição. Empates no número de problemas resolvidos serão classificados pelo tempo corrigido, que é composto do tempo decorrido desde o início da competição até a entrega correta do último programa, acrescido das possíveis penalidades. A organização da competição é responsável pela decisão de qualquer caso não previsto.
-        </p>
-        <p><strong>4.Sistema de submissão</strong><br>
-            Toda submissão de programas e comunicação das equipes com a comissão avaliadora deverá ser realizada através do sistema de submissão (BOCA), sendo vetada qualquer comunicação de outra forma. Antes do início da competição será realizado um aquecimento, onde as equipes resolverão um problema simples, visando testar o sistema de submissão, bem como o equipamento (hardware).
-        </p>
-        <p><strong>5. Recursos</strong><br>
-            Cada equipe terá disponível 1 microcomputador fornecido pela Faculdade de Engenharia de Sorocaba. Os alunos poderão ter acesso a qualquer tipo de material impresso (apostilas, livros, anotações, etc) que julgue necessário. Não será permitido o acesso a internet, mídias (CD, DVD, pendrive, etc) e qualquer meio digital (celulares, pagers, handheld, notebook, etc). Além do microcomputador fornecido, é permitido acesso apenas à papel.
-        </p>
-        <p><strong>6. Informações técnicas</strong><br>
-            Os microcomputadores contarão apenas com o sistema operacional Linux (Maratona Linux).
-            
-             As diretivas de compilação utilizadas pela comissão avaliadora serão (caso as equipes desejem testá-las):
-            
-             Linguagem C: gcc -std=c99 -lm -o <code><em><arquivoexecutavel> <arquivo.c></em></code>
-                Linguagem C++: g++ -lm -o <code><em><arquivoexecutavel> <arquivo.cpp></em></code>
-                Linguagem Java: javac <code><em><arquivo.java></em></code>
-            Os compiladores utilizados pela comissão avaliadora serão:
-            Compilador C: gcc
-            Compilador C++: g++
-            Compilador Java: Java
-            Os ambientes de desenvolvimento disponíveis para as equipes serão (não é obrigatório o uso de um ambiente de desenvolvimento, é permitida a utilização também de qualquer editor de texto disponível):
-            Editor C: Geany
-            Editor C++: Geany
-            Editor Java: Geany
-        </p>
-        <p><strong>7. Equipes</strong><br>
-            As equipes deverão ser formadas por 3 alunos devidamente matriculados em qualquer curso da Faculdade de Engenharia de Sorocaba. é importante ressaltar que as equipe poderão ser formadas por alunos dos diferentes cursos e turmas.
-        </p>
-        <p><strong>8. Desclassificação automática</strong><br>
-            A fim de evitar que equipes se dispersem do objetivo da maratona, serão adotados os seguintes critérios de desclassificação das equipes:
-            
-            - Utilização do sistema de comunicação para proferir ofensas e/ou palavras de baixo calão aos avaliadores ou membros da comissão organizadora;
-            - Comunicação com outras equipes;
-            - Utilização de material ou equipamentos proibidos, conforme item 6;
-            
-            A organização da Maratona de Programação FACENS poderá desclassificar qualquer equipe, por motivos não previstos nesse documento que possam atrapalhar ou inviabilizar a realização satisfatória do evento.
-        </p>
-        <p><strong>9. Premiação</strong><br>
-            Obs: A premiação será realizada no auditório da FACENS, 30 minutos após o término oficial da maratona.</p>
-        <p><strong></strong><br>10. Comissão avaliadora
-            A Comissão avaliadora será composta por professores da Faculdade de Engenharia de Sorocaba. Os professores convidados deverão compor a "mesa julgadora" e serão responsáveis pela elaboração da prova, que será mantida em sigilo até sua aplicação.</p>
-        <p><strong>11. Comissão organizadora</strong><br>
-            A Comissão organizadora será composta por professores e funcionários da Faculdade de Engenharia de Sorocaba.
-        </p>
+            <p><div><strong>1. Prova</strong><br>
+               <p>A prova será composta por 10 problemas descritos em português, que englobarão conceitos de Lógica Computacional, Algoritmos e Programação e Estruturas de Dados, podendo ser estendidos para outras áreas da computação.<br><br></p>
+            </div>
+                <p>Cada problema exigirá a implementação de um programa como resposta em uma das linguagens de programação: C, C++ ou Java.<br><br></p>           
+                
+            <p> Como se trata de um torneio de criação e implementação de algoritmos, isto significa que não existe a necessidade de preocupar-se com interfaces com o usuário, reusabilidade do código, etc.<br><br>
+                
+                O tempo total para implementação dos algoritmos é de 4 horas.<br><br></p> 
+            </p>
+            <p><strong>2. Entrada e saída de dados</strong><br><br>
+                Durante os testes que a comissão avaliadora realizará, será considerada como entrada padrão o teclado. A saída padrão será o vídeo, ou seja, as soluções deverão ser exibidas na tela.
+            </p>
+            <p><strong>3. Sistema de avaliação</strong><br><br>
+                Ao julgar que finalizou um programa que resolve um determinado problema, a equipe pode submetê-lo à comissão avaliadora, que compilará e executará uma bateria de testes,desconhecido das equipes. Um problema será considerado resolvido se, para todos os casos de testes, ele devolva o resultado esperado.<br><br>
+                
+                Para cada submissão o time recebe uma resposta, que pode ser satisfatória (o problema está resolvido pelo time) ou insatisfatória, indicando que algum erro ocorreu durante os testes. Alguns exemplo de respostas insatisfatórias são: resposta errada, tempo de execução excedido, erro de execução, erro de compilação, etc. A cada submissão de programa, com resposta incorreta, a equipe será penalizada em 20 minutos, o qual será adicionado ao tempo total de resolução.<br><br>
+                
+                O time vencedor é aquele que resolver a maior quantidade de problemas dentro das 4 horas de competição. Empates no número de problemas resolvidos serão classificados pelo tempo corrigido, que é composto do tempo decorrido desde o início da competição até a entrega correta do último programa, acrescido das possíveis penalidades. A organização da competição é responsável pela decisão de qualquer caso não previsto.<br><br>
+            </p>
+            <p><strong>4.Sistema de submissão</strong><br><br>
+                Toda submissão de programas e comunicação das equipes com a comissão avaliadora deverá ser realizada através do sistema de submissão (BOCA), sendo vetada qualquer comunicação de outra forma. Antes do início da competição será realizado um aquecimento, onde as equipes resolverão um problema simples, visando testar o sistema de submissão, bem como o equipamento (hardware).<br><br>
+            </p>
+            <p><strong>5. Recursos</strong><br><br>
+                Cada equipe terá disponível 1 microcomputador fornecido pela Faculdade de Engenharia de Sorocaba. Os alunos poderão ter acesso a qualquer tipo de material impresso (apostilas, livros, anotações, etc) que julgue necessário. Não será permitido o acesso a internet, mídias (CD, DVD, pendrive, etc) e qualquer meio digital (celulares, pagers, handheld, notebook, etc). Além do microcomputador fornecido, é permitido acesso apenas à papel.<br><br>
+            </p>
+            <p><strong>6. Informações técnicas</strong><br><br>
+                Os microcomputadores contarão apenas com o sistema operacional Linux (Maratona Linux).<br><br>
+                
+                As diretivas de compilação utilizadas pela comissão avaliadora serão (caso as equipes desejem testá-las):<br><br>
+                
+                Linguagem C: gcc -std=c99 -lm -o <em>&lt arquivoexecutavel> &lt arquivo.c></em><br>
+                    Linguagem C++: g++ -lm -o <em>&lt arquivoexecutavel> &lt arquivo.cpp></em></code><br>
+                    Linguagem Java: javac <em>&lt arquivo.java></em><br><br>
+                Os compiladores utilizados pela comissão avaliadora serão:<br><br>
+                Compilador C: gcc<br>
+                Compilador C++: g++<br>
+                Compilador Java: Java<br>
+                Os ambientes de desenvolvimento disponíveis para as equipes serão (não é obrigatório o uso de um ambiente de desenvolvimento, é permitida a utilização também de qualquer editor de texto disponível):<br><br>
+                Editor C: Geany<br>
+                Editor C++: Geany<br>
+                Editor Java: Geany<br>
+            </p>
+            <p><strong>7. Equipes</strong><br><br>
+                As equipes deverão ser formadas por 3 alunos devidamente matriculados em qualquer curso da Faculdade de Engenharia de Sorocaba. é importante ressaltar que as equipe poderão ser formadas por alunos dos diferentes cursos e turmas.<br>
+            </p>
+            <p><strong>8. Desclassificação automática</strong><br><br>
+                A fim de evitar que equipes se dispersem do objetivo da maratona, serão adotados os seguintes critérios de desclassificação das equipes:<br>
+                
+                - Utilização do sistema de comunicação para proferir ofensas e/ou palavras de baixo calão aos avaliadores ou membros da comissão organizadora;<br><br>
+                - Comunicação com outras equipes;<br><br>
+                - Utilização de material ou equipamentos proibidos, conforme item 6;<br><br>
+                
+                A organização da Maratona de Programação FACENS poderá desclassificar qualquer equipe, por motivos não previstos nesse documento que possam atrapalhar ou inviabilizar a realização satisfatória do evento.<br>
+            </p>
+            <p><strong>9. Premiação</strong><br><br>
+                Obs: A premiação será realizada no auditório da FACENS, 30 minutos após o término oficial da maratona.<br>
+            </p>
+            <p><strong>10. Comissão avaliadora</strong><br><br>
+                A Comissão avaliadora será composta por professores da Faculdade de Engenharia de Sorocaba. Os professores convidados deverão compor a "mesa julgadora" e serão responsáveis pela elaboração da prova, que será mantida em sigilo até sua aplicação.<br>
+            </p>
+            <p><strong>11. Comissão organizadora</strong><br><br>
+                A Comissão organizadora será composta por professores e funcionários da Faculdade de Engenharia de Sorocaba.<br>
+            </p>
     </session>
     
 </body>
