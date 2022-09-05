@@ -74,12 +74,24 @@ nav{
     font-family: 'Passion One', cursive;
 }
 
-div{
-    margin-top: 40px;
+#primeiroParagrafo{
+    margin-top: 20px;
     width: 60%;
     display: inline-block;
     font-size: 20px;
     text-align: justify;
+}
+
+li{
+    list-style-type: disc;
+    margin: 10px 0px 0px 10px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+ul li ul li{
+    list-style-type: circle;
+    margin-left: 20px;
 }
 
 p{
@@ -87,4 +99,43 @@ p{
     text-align: justify;
     font-size: 20px;
     display: inline-block;
+}
+
+footer{
+    width: 193.5vh;
+    color: white;
+    background-image: url(/img/footerbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 80%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sobre{
+    vertical-align: top;
+    display: inline-block;
+
+}
+
+.divIcones{
+    display: block;
+    padding-left: 15px;
+}
+
+footer p{
+    margin-top: 30px;
+}
+
+.divIcones svg{
+    margin-left: 25px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+
+
+
+#iconeFacens{
+    width: 65px;
+    transform: translateY(-20px);
 }
