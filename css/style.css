@@ -9,6 +9,7 @@
 
 html{
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 #session1{
@@ -48,12 +49,22 @@ header h1{
 
 nav{
     margin-left: 25%;
-    margin-top: 45px;
+    margin-top: 35px;
     font-size: 28px;
+    font-weight: bold;
 }
 
 .navegacao{
     color: white;
+    display: inline-block;
+    padding: 8px;
+}
+
+.navegacao:hover{
+    background-color: var(--roxo-escuro);
+    border-radius: 8px;
+    transform: scale(1.1);
+    transition: 400ms;
 }
 
 #LogoFacens{
@@ -102,7 +113,7 @@ p{
 }
 
 footer{
-    width: 193.5vh;
+    width: 100%;
     color: white;
     background-image: url(/img/footerbg.png);
     background-repeat: no-repeat;
@@ -112,30 +123,72 @@ footer{
     padding-right: 30px;
 }
 
+#divSobre{
+    vertical-align: top;
+    display: inline-block;
+    padding-left: 30px;
+    width: 35%;
+}
+
 .sobre{
     vertical-align: top;
     display: inline-block;
-
+    padding-left: 30px;
 }
 
 .divIcones{
     display: block;
-    padding-left: 15px;
+    margin-left: 35px;
 }
 
 footer p{
     margin-top: 30px;
 }
 
-.divIcones svg{
-    margin-left: 25px;
-    margin-right: 50px;
-    margin-bottom: 25px;
+footer p{
+    display: inline-block;
 }
 
+footer div{
+    display: inline-block;
+}
 
+.divIcones svg{
+    margin-left: 40px;
+    margin-right: 12px;
+    margin-bottom: 25px;
+}
 
 #iconeFacens{
     width: 65px;
     transform: translateY(-20px);
+}
+
+ul{
+    margin-left: 30px;
+}
+
+#divLocalizacao{
+    margin: 20px 0px 20px 0px;
+    width: 25%;
+}
+
+div p{
+    display: inline-block;
+}
+
+.chamadaLocalizacao{
+    font-size: 23px;
+}
+
+#apoiadores p{
+    text-align: center;
+    display: block;
+}
+
+#divLocalizacao p{
+ text-align: center;
+ display: block;
+ margin: 0px 0px 13px 0px;
+ font-size: 15px;
 }

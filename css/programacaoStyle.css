@@ -1,0 +1,13 @@
+
+.boxApresentacaoProgramacao{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 26%;
+    background-color:var(--roxo-claro);
+    border-radius: 30px;
+    font-size: 67px;
+    padding: 30px;
+    padding-left: 40px;
+    box-shadow: -13px 13px 10px 0px #130633;
+    font-family: 'Passion One', cursive;
+}
