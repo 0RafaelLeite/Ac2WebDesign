@@ -1,12 +1,24 @@
 .boxApresentacaoEventosAnteriores{
     margin-top: 15px;
     margin-left: 15px;
-    width: 27%;
+    width: 35%;
     background-color:var(--roxo-claro);
     border-radius: 30px;
     font-size: 67px;
     padding: 20px;
-    padding-left: 40px;
+    padding-left: 30px;
     box-shadow: -13px 13px 10px 0px #130633;
     font-family: 'Passion One', cursive;
+}
+
+section{
+    width: 100%;
+}
+
+section a{
+    color: black;
+}
+
+img{
+    width:20%;
 }
