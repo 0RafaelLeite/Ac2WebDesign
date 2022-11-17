@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Passion+One&display=swap');
+
+:root{
+    --roxo-escuro: #130633;
+    --roxo-medio: rgb(53, 26, 160);
+    --roxo-claro: rgb(116, 61, 250);
+    --azul-claro: #3FCCFF;
+}
+
 .boxApresentacaoEventosAnteriores{
     margin-top: 15px;
     margin-left: 15px;
-    width: 35%;
+    width: 93%;
     background-color:var(--roxo-claro);
     border-radius: 30px;
     font-size: 67px;
@@ -9,16 +18,134 @@
     padding-left: 30px;
     box-shadow: -13px 13px 10px 0px #130633;
     font-family: 'Passion One', cursive;
-}
-
-section{
-    width: 100%;
+    display: block;
+    text-align: center;
 }
 
 section a{
-    color: black;
+    color: white;
+    text-decoration: underline;
 }
 
-img{
-    width:20%;
+section div{
+    color: white;
+    border: solid 5px rgb(19, 6, 51);
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgba(53, 26, 160, .95);
+    box-shadow: -13px 13px 10px 0px black;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 60px;
+    width: 45%;
+}
+
+ul p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+ul li{
+    font-size: 22px;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+ul li:hover{
+    margin-left: 30px;
+    transition: 200ms;
+}
+
+figure{
+    text-align: center;
+    display: inline-block;
+    width: 35%;
+    border: 3px solid #130633;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background-color: var(--roxo-claro);
+    position: inherit;
+}
+
+figcaption{
+    font-size: 20px;
+    font-family: 'Passion One', cursive;
+}
+
+section img{
+    border-radius: 20px;
+    border: 3px solid var(--roxo-escuro);
+    width:80%;
+    transition: 400ms;
+}
+
+section img:hover{
+    transform: scale(1.25);
+    transition: 400ms;
+}
+
+@media screen and (max-width: 768px){
+    .boxApresentacaoEventosAnteriores{
+    width: 80%;
+    }
+
+    header{
+        padding-left: 20px;
+    }
+
+    figure {
+        width: 70%;
+    }
+
+    ul{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 390px){
+    #LogoFacens{
+        display: none;
+        position: inherit;
+    }
+
+    header br{
+        display: none;
+    }
+
+    .boxApresentacao{
+        font-size: 90px;
+        width: 80%;
+    }
+
+    #session1{
+        margin-left: 0px;
+    }
+
+    main{
+        padding-left: 0;
+    }
+
+    #divSobre{
+        display: none;
+    }
+
+    #divApoiadores{
+        display: none;
+    }
+
+    #divLocalizacao{
+        transform:translateY(-10px);
+    }
+
+    #primeiroParagrafo{
+        width: 100%;
+    }
 }

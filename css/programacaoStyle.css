@@ -45,3 +45,85 @@ section{
     font-size: 20px;
     padding: 20px;
 }
+
+#clique{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px){
+    .boxApresentacaoProgramacao{
+        width: 70%;
+        font-size: 50px;
+    }
+
+    html{
+        text-align: center;
+    }
+
+    section{
+        width: 70%;
+        font-size: 15px;
+    }
+
+    header{
+        padding-left: 20px;
+    }
+
+    #chamada{
+        width: 80%;
+    }
+
+    #clique{
+        display: contents;
+    }
+
+    #passe{
+        display: none;
+    }
+
+    #minimapa{
+        width: 400px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    #LogoFacens{
+        display: none;
+        position: inherit;
+    }
+
+    header br{
+        display: none;
+    }
+
+    .boxApresentacao{
+        font-size: 90px;
+        width: 80%;
+    }
+
+    #session1{
+        margin-left: 0px;
+    }
+
+    main{
+        padding-left: 0;
+    }
+
+    #divSobre{
+        display: none;
+    }
+
+    #divApoiadores{
+        display: none;
+    }
+
+    #divLocalizacao{
+        transform:translateY(-10px);
+    }
+
+    #primeiroParagrafo{
+        width: 100%;
+    }
+}
