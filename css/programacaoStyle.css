@@ -34,7 +34,7 @@ figcaption{
     margin-bottom: 10px;
 }
 
-section{
+session{
     border: 4px solid #130633;
     border-radius: 20px;
     margin-left: 35px;
@@ -61,7 +61,7 @@ section{
         text-align: center;
     }
 
-    section{
+    session{
         width: 70%;
         font-size: 15px;
     }
@@ -103,7 +103,7 @@ section{
         width: 80%;
     }
 
-    #session1{
+    #section1{
         margin-left: 0px;
     }
 

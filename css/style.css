@@ -38,6 +38,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 40%;
+    z-index: 9;
 }
 
 
@@ -168,6 +169,17 @@ footer div{
 #iconeFacens{
     width: 65px;
     transform: translateY(-20px);
+}
+
+session a{
+    color: black;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+session li strong a:hover{
+    margin-left: 20px;
+    transition: 300ms;
 }
 
 ul{

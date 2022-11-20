@@ -22,17 +22,31 @@
     text-align: center;
 }
 
-section a{
-    color: white;
-    text-decoration: underline;
+html{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
-section div{
+session a{
+    color: white;
+    text-decoration: none;
+}
+
+session a:hover{
+    color: white;
+}
+
+header a:hover{
+    color: white;
+}
+
+.divDefault{
     color: white;
     border: solid 5px rgb(19, 6, 51);
     border-radius: 30px;
     margin-top: 30px;
     margin-bottom: 20px;
+    margin-right: 20px;
     background-color: rgba(53, 26, 160, .95);
     box-shadow: -13px 13px 10px 0px black;
 }
@@ -60,38 +74,31 @@ ul li:hover{
     transition: 200ms;
 }
 
-figure{
+h5{
+    font-family: 'Passion One', cursive;
+}
+
+div img{
+    border: 3px solid #130633;
+    border-radius: 8px;
+}
+
+.carousel{
     text-align: center;
     display: inline-block;
     width: 35%;
     border: 3px solid #130633;
     border-radius: 20px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding: 20px;
     margin-top: 20px;
     margin-left: 50px;
     margin-bottom: 20px;
     background-color: var(--roxo-claro);
-    position: inherit;
 }
 
-figcaption{
-    font-size: 20px;
-    font-family: 'Passion One', cursive;
+a span{
+    display: none;
 }
-
-section img{
-    border-radius: 20px;
-    border: 3px solid var(--roxo-escuro);
-    width:80%;
-    transition: 400ms;
-}
-
-section img:hover{
-    transform: scale(1.25);
-    transition: 400ms;
-}
-
 @media screen and (max-width: 768px){
     .boxApresentacaoEventosAnteriores{
     width: 80%;
@@ -101,12 +108,16 @@ section img:hover{
         padding-left: 20px;
     }
 
-    figure {
+    ul{
         width: 70%;
     }
 
-    ul{
-        width: 70%;
+    .carousel{
+        display: none;
+    }
+
+    a span{
+        display: contents;
     }
 }
 
@@ -147,5 +158,8 @@ section img:hover{
 
     #primeiroParagrafo{
         width: 100%;
+    }
+    a span{
+        display: contents;
     }
 }
